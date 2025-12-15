@@ -1,0 +1,12 @@
+Panels:
+  - Class: rviz/Displays
+    Name: Displays
+Displays:
+  - Name: LaserScan
+    Type: rviz/LaserScan
+    Topic: /MS200/scan
+  - Name: Map
+    Type: rviz/Map
+    Topic: /map
+  - Name: TF
+    Type: rviz/TF
